@@ -11,6 +11,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btntrue : Button
     private lateinit var btnfalse : Button
 
+    private  val questionBank = listOf(
+        Question(R.string.question_jalisco, true),
+        Question(R.string.question_caja, false))
+
+    private var currentIndex = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

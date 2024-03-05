@@ -2,7 +2,9 @@
     <string name="app_name">Quiz</string>
 
     <string name="question_text">¿Kotlin es un lenguaje de programación de Google?</string>
+    <string name="question_jalisco">¿Guadalajara es la capital de jalisco</string>
+    <string name="question_caja">¿la caja negra de un avion es negra?</string>
     <string name="true_button">Verdadero</string>
     <string name="false_button">Falso</string>
-
+    <string name="btn_next">Next</string>
 </resources>
